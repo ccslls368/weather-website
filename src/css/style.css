@@ -1,0 +1,19 @@
+@import "/src/css/all.css";
+@import "/src/css/fontawesome.css";
+
+body {
+  font-family: sans-serif;
+}
+
+/* p::before {
+  font: var(--fa-font-solid);
+  content: "\f0c2";
+} */
+
+/*#search {
+} */
+
+#search-btn::before {
+  font: var(--fa-font-solid);
+  content: "\f002";
+}
